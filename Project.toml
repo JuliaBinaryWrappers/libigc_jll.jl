@@ -1,0 +1,10 @@
+name = "libigc_jll"
+uuid = "94295238-5935-5bd7-bb0f-b00942e9bdd5"
+version = "1.0.3586+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
