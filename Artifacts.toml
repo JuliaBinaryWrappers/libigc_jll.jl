@@ -1,60 +1,60 @@
 [[libigc]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f53e37c3c70bd5298865584e7e82e74f65b4399c"
+git-tree-sha1 = "0e49b32bb6347d6ba98762f7c04c2947c187a6c4"
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "5d85ffaadc1ed73bb856a6ff91c59ea690f8650ead24000d4236505e7952f29f"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3586+2/libigc.v1.0.3586.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "7655516e438d56771d8314b88cd881e87e8ac7835ff3f446d6947d5477f45b3e"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3771+0/libigc.v1.0.3771.i686-linux-gnu-cxx03.tar.gz"
 [[libigc]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "9e2ba7c1820f3b94aa0ce0207694f5ff8f0bc613"
+git-tree-sha1 = "f6eb328824526db647ba50c692c281b6601e51f0"
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "c9d1a64d45fcf7c33bb5e5113acd7d2a08f0e074aaacbf36ab6a0a1d5bfa096c"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3586+2/libigc.v1.0.3586.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "e9c26f47fc12e8b522f7ebd44d65aaab48207b8b9c9a7a1a7f9aac3d810cd8d8"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3771+0/libigc.v1.0.3771.i686-linux-gnu-cxx11.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ef8909e62068f778238a78bc79a1acd0b983a3da"
+git-tree-sha1 = "a237f18aaead1feb734a734ba54fd8f677c6cace"
 libc = "musl"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "24bab24dc25a6790d7b8e1ea3f490309c10dca7fbd23a616098d018d98f63844"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3586+2/libigc.v1.0.3586.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "64d703a00da7e00f91f1642b55766de1439fd9a177f1c79c44b8d086170b458d"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3771+0/libigc.v1.0.3771.x86_64-linux-musl-cxx03.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8f77cc257ba043366cf65ff72147a5d56932faab"
+git-tree-sha1 = "7bb234e1f9d3b5880fbd7675c54aeaa7a5d978f6"
 libc = "musl"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "b0cef5e2ac0bf8d89b7e11ba343e00194fee69b2b591d17a6e6bc560e1658780"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3586+2/libigc.v1.0.3586.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "fea81d35bf35eb4111fb4bf40d62002ed01740c273df151e14aa075af0e29908"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3771+0/libigc.v1.0.3771.x86_64-linux-musl-cxx11.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "74582141ea17e0006bd68dbb391476fcff856676"
+git-tree-sha1 = "fb3c0914cb94e71a34a9c508b7357c5001e3a406"
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "58ceca3803ac88d2f7a9e7132623922315d063f2aafd29695952127a02f28cf5"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3586+2/libigc.v1.0.3586.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "8199f062ec9a40ddc42442eadc6825bb21271bc1d5aaa76990582d107254cf39"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3771+0/libigc.v1.0.3771.x86_64-linux-gnu-cxx11.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "4788fdd216a87d7fa56a27076a997cbeae7dec7e"
+git-tree-sha1 = "de311fc6b302fdc024ef4d3d55d41bda755e8428"
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "0b27a9cbe01f40e89d7beeae3546813908a0fb6d23a17b6bc5685c046ec0e3c2"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3586+2/libigc.v1.0.3586.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "270ebb2c3bacb16c3b2e729d0963a5b7907658436a7ab7c20ce759d5bfdb3dcf"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.3771+0/libigc.v1.0.3771.x86_64-linux-gnu-cxx03.tar.gz"
