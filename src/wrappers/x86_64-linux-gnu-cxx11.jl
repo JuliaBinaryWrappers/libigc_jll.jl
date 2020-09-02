@@ -125,13 +125,16 @@ libopencl_clang_handle = C_NULL
 const libopencl_clang = "libopencl-clang.so.10"
 
 
+# Inform that the wrapper is available for this platform
+wrapper_available = true
+
 """
 Open all libraries
 """
 function __init__()
-    global artifact_dir = abspath(artifact"libigc")
+    # This either calls `@artifact_str()`, or returns a constant string if we're overridden.
+    global artifact_dir = find_artifact_dir()
 
-    # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
     global GenX_IR_path = normpath(joinpath(artifact_dir, GenX_IR_splitpath...))
 
@@ -143,28 +146,28 @@ function __init__()
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libiga_handle = dlopen(libiga_path)
+    global libiga_handle = dlopen(libiga_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libiga_path))
 
     global libigc_path = normpath(joinpath(artifact_dir, libigc_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libigc_handle = dlopen(libigc_path)
+    global libigc_handle = dlopen(libigc_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libigc_path))
 
     global libigdfcl_path = normpath(joinpath(artifact_dir, libigdfcl_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libigdfcl_handle = dlopen(libigdfcl_path)
+    global libigdfcl_handle = dlopen(libigdfcl_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libigdfcl_path))
 
     global libopencl_clang_path = normpath(joinpath(artifact_dir, libopencl_clang_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libopencl_clang_handle = dlopen(libopencl_clang_path)
+    global libopencl_clang_handle = dlopen(libopencl_clang_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libopencl_clang_path))
 
     # Filter out duplicate and empty entries in our PATH and LIBPATH entries
@@ -175,4 +178,3 @@ function __init__()
 
     
 end  # __init__()
-
