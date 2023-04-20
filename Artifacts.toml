@@ -1,20 +1,48 @@
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "1ddee37dbfc29f146a5319b64a9ee375e5596a96"
+debug = "false"
+git-tree-sha1 = "cae73130710b8361d474b5dbf1351d065c788b87"
+lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "f6f40be201b3639cc1369000527654e31c0fd937d7dd1fdab5f727af5937bc6c"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+0/libigc.v1.0.13230.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "18dde914d8bf4424045ed3004ab5a5b87473778450c2c31392efc95e298aa0bd"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+1/libigc.v1.0.13230.x86_64-linux-gnu-cxx03-debug+false.tar.gz"
+[[libigc]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+debug = "true"
+git-tree-sha1 = "f74a0a478590f88d59ffb70ca3f9098063cc160a"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libigc.download]]
+    sha256 = "24e690e25c0292fce0e9f761adae980463ef39fd8e66a98bc473f15e9bdf1768"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+1/libigc.v1.0.13230.x86_64-linux-gnu-cxx03-debug+true.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "14801c1b02ebcc4e9f067588ef0cd61b1d7a33bb"
+debug = "false"
+git-tree-sha1 = "c75ba3e086d1a6cfa672a212f54ced615eea2929"
+lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "baced362cff02f9cf3faf6f5bc4f260ed8cdea118602c18ecacd639a88910588"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+0/libigc.v1.0.13230.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "ae6254ef215ff467230749c5307bc8d6276f9b71cdce039d89745e302466b179"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+1/libigc.v1.0.13230.x86_64-linux-gnu-cxx11-debug+false.tar.gz"
+[[libigc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+debug = "true"
+git-tree-sha1 = "5916825486d701fae35b077f268798dc6e031fad"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[libigc.download]]
+    sha256 = "cbb5a4d46480e9ce431eacdc9604c901889b39cec77983230fcaac3f52aac603"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+1/libigc.v1.0.13230.x86_64-linux-gnu-cxx11-debug+true.tar.gz"
