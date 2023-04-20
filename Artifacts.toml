@@ -2,13 +2,13 @@
 arch = "x86_64"
 cxxstring_abi = "cxx03"
 debug = "false"
-git-tree-sha1 = "cae73130710b8361d474b5dbf1351d065c788b87"
+git-tree-sha1 = "93c1d2fe7b6d7ff8b2aa6a1fcbc46bd5458114e9"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "18dde914d8bf4424045ed3004ab5a5b87473778450c2c31392efc95e298aa0bd"
+    sha256 = "a30bd60cef31feee93952a8f7aa0a6ba344939867f3c344a73c282ef5d4993c7"
     url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+1/libigc.v1.0.13230.x86_64-linux-gnu-cxx03-debug+false.tar.gz"
 [[libigc]]
 arch = "x86_64"
@@ -26,23 +26,23 @@ os = "linux"
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 debug = "false"
-git-tree-sha1 = "c75ba3e086d1a6cfa672a212f54ced615eea2929"
+git-tree-sha1 = "27dbce94f20187368da523f5a3a066d9587ae7e9"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "ae6254ef215ff467230749c5307bc8d6276f9b71cdce039d89745e302466b179"
+    sha256 = "2ecbb251e0e475dab1cb16ced6440db09492a3b6852949cb19092fa61f00e685"
     url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+1/libigc.v1.0.13230.x86_64-linux-gnu-cxx11-debug+false.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 debug = "true"
-git-tree-sha1 = "5916825486d701fae35b077f268798dc6e031fad"
+git-tree-sha1 = "9e9ccea9d6649e02b2d51e0062f31edcef4eb669"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "cbb5a4d46480e9ce431eacdc9604c901889b39cec77983230fcaac3f52aac603"
+    sha256 = "6c35914ddd4b14bf01ad096b550585879a07cf8dc288ea33da0882a12f20461f"
     url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.13230+1/libigc.v1.0.13230.x86_64-linux-gnu-cxx11-debug+true.tar.gz"
