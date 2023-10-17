@@ -5,7 +5,7 @@ JLLWrappers.@generate_wrapper_header("libigc")
 JLLWrappers.@declare_library_product(libiga, "libiga64.so.1")
 JLLWrappers.@declare_library_product(libigc, "libigc.so.1")
 JLLWrappers.@declare_library_product(libigdfcl, "libigdfcl.so.1")
-JLLWrappers.@declare_library_product(libopencl_clang, "libopencl-clang.so.11")
+JLLWrappers.@declare_library_product(libopencl_clang, "libopencl-clang.so.14")
 JLLWrappers.@declare_executable_product(GenX_IR)
 JLLWrappers.@declare_executable_product(iga)
 function __init__()
@@ -30,7 +30,7 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libopencl_clang,
-        "lib/libopencl-clang.so.11",
+        "lib/libopencl-clang.so.14",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
