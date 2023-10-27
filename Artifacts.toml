@@ -9,7 +9,7 @@ os = "linux"
 
     [[libigc.download]]
     sha256 = "30c270ced8e637ce821a866676c78d789c5225e558e91493fdfdeb4d81b2fdf5"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.14828+0/libigc.v1.0.14828.x86_64-linux-gnu-cxx03-debug+false.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.14828+2/libigc.v1.0.14828.x86_64-linux-gnu-cxx03-debug+false.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -21,19 +21,19 @@ os = "linux"
 
     [[libigc.download]]
     sha256 = "b19f4d9397a73511ea7818339719090f0c801a5af891fcf2e78e824a062781fd"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.14828+0/libigc.v1.0.14828.x86_64-linux-gnu-cxx03-debug+true.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.14828+2/libigc.v1.0.14828.x86_64-linux-gnu-cxx03-debug+true.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
 debug = "false"
-git-tree-sha1 = "4e435bba949f43ee199543caba1210e9c5b6a6f2"
+git-tree-sha1 = "b8a7365b96f307902ecb2616c9ce8c3c112b2b72"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[libigc.download]]
-    sha256 = "1ca24725bef2acc7c1fe8d8bc3a3b6b4e7da0715befa16df7d1beae5ccdda08f"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.14828+0/libigc.v1.0.14828.x86_64-linux-gnu-cxx11-debug+false.tar.gz"
+    sha256 = "cd90b389879dfed0b24d53e67956959ffbd68aa6fc3d79c62ebd5c43ee5914f5"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.14828+2/libigc.v1.0.14828.x86_64-linux-gnu-cxx11-debug+false.tar.gz"
 [[libigc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -45,4 +45,4 @@ os = "linux"
 
     [[libigc.download]]
     sha256 = "a060d218e6f44fb0bb11d4f0cdcb070f7b2af4a6a82a291a6c67f4c42bc16506"
-    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.14828+0/libigc.v1.0.14828.x86_64-linux-gnu-cxx11-debug+true.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/libigc_jll.jl/releases/download/libigc-v1.0.14828+2/libigc.v1.0.14828.x86_64-linux-gnu-cxx11-debug+true.tar.gz"
