@@ -1,6 +1,6 @@
 name = "libigc_jll"
 uuid = "94295238-5935-5bd7-bb0f-b00942e9bdd5"
-version = "2.14.1+1"
+version = "2.14.1+2"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
