@@ -11,19 +11,19 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libiga,
-        "lib/libiga64.so.2",
+        "lib/libiga64.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libigc,
-        "lib/libigc.so.2",
+        "lib/libigc.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libigdfcl,
-        "lib/libigdfcl.so.2",
+        "lib/libigdfcl.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
