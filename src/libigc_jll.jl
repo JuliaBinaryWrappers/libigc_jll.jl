@@ -7,5 +7,5 @@ Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("libigc")
-JLLWrappers.@generate_main_file("libigc", UUID("94295238-5935-5bd7-bb0f-b00942e9bdd5"))
+JLLWrappers.@generate_main_file("libigc", Base.UUID("94295238-5935-5bd7-bb0f-b00942e9bdd5"))
 end  # module libigc_jll
